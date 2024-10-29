@@ -89,7 +89,7 @@ def analyze_image(image_data):
     אם איכות התמונה לא טובה אל תחזיר JSON ותבקש לעלות את התמונה מחדש
     """
     wkdir = os.getcwd()
-    example = extract_text_from_docx(f"{wkdir}\examples_from_word.docx")
+    example = extract_text_from_docx(f"/home/ubuntu/documents.loader/examples_from_word.docx")
 
     prompt = f"""
     <instructions>
