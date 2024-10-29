@@ -1,0 +1,6 @@
+streamlit==1.37.1
+boto3==1.35.3
+PyMuPDF==1.24.9
+PyPDF2
+python-docx
+python-dotenv
